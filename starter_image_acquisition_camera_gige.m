@@ -1,4 +1,3 @@
-% files to add to the path: CalculateFrameRate.m | CalculatePacketDelay.m
 clear all; 
 close all; 
 clc; global camera; % close, delete and clean the executed application.

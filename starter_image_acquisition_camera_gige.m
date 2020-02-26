@@ -23,4 +23,4 @@ function keyboardpress(src,event), global camera
             frame = getsnapshot(camera); % extract current frame and save output as PNG.
             imwrite(frame, strcat('acquired',num2str(rand(1)),'.PNG'));
     end
-end
+end 

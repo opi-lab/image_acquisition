@@ -25,3 +25,4 @@ function keyboardpress(src,event), global camera
             imwrite(frame, strcat('acquired',num2str(rand(1)),'.PNG'));
     end
 end 
+ 

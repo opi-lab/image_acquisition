@@ -1,7 +1,7 @@
-clear all;
+clear all; % close, delete and clean the executed application.
 close all; 
 clc;
-global camera; % close, delete and clean the executed application.
+global camera; 
 adaptor = 'gentl'; device = 1; format = 'mono8'; % settings parameters of the acquisition device.
 camera = videoinput(adaptor,device,format); % create object instance of monochrome usb 3.0 camera.
 properties = getselectedsource(camera); % extracting camera properties.

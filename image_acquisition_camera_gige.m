@@ -1,7 +1,8 @@
 % files to add to the path: CalculateFrameRate.m | CalculatePacketDelay.m
-clear all; 
+clear all; % close, delete and clean the executed application.
 close all; 
-clc; global camera; % close, delete and clean the executed application.
+clc;
+global camera; 
 
 adaptor = 'gige'; device = 1; format = 'mono8'; % settings parameters of the acquisition device.
 camera = videoinput(adaptor,device,format); % create object instance of monochrome GigE camera.

@@ -1,4 +1,4 @@
-%image_acquisition_camera_usb3.m
+
 clear all; 
 close all; 
 clc; global camera; % close, delete and clean the executed application.
